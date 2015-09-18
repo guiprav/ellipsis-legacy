@@ -1,6 +1,9 @@
 {
   "name": "ellipsis",
   "version": "0.0.0",
+  "bin": {
+    "ellipsis": "./server.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/n2liquid/ellipsis"
@@ -9,5 +12,9 @@
     "url": "https://github.com/n2liquid/ellipsis/issues"
   },
   "author": "Guilherme Prá Vieira (super.driver.512@gmail.com)",
-  "license": "AGPL-3.0+"
+  "license": "AGPL-3.0+",
+  "dependencies": {
+    "express": "^4.13.3",
+    "glob": "^5.0.14"
+  }
 }
